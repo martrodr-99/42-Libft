@@ -14,7 +14,7 @@
 /* 
 ----------------------------------------------------------------------
 SPLIT
-- split allocates memory and returns a 'fresh' table of strings
+- split allocates memory and returns a table of strings
 (all terminated by a '\0', the table as well) obtained by splitting
 ’s’ using the character ’c’ as a delimiter  
 
@@ -42,7 +42,7 @@ exists in our string and return that value
 - we use this function to figure out how much space we need to allocate
 for our table in ft_split
 
-- here the c character is the same c character that the ft_strsplit
+- here the c character is the same c character that the ft_split
 function will be splitting the string by. So we want to skip over that
 character until we find our first real word
 
